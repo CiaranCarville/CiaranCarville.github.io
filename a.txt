@@ -1,0 +1,6 @@
+todo
+
+WEBSITE FUNDAMENTALS
+    User system.
+    Currency.
+    Inventory.
