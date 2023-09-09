@@ -6,6 +6,6 @@ CREATE TABLE Users(
     password VARCHAR(255) NOT NULL,
     activated BIT NOT NULL
 );
--- @block 
-INSERT INTO Users (email, username)
-VALUES ('CiaranCarville@pm.me', 'safe')
+-- @block
+ALTER TABLE Users
+ADD tokens INT;

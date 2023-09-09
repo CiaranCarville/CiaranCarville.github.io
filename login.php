@@ -17,6 +17,7 @@ $result = $connect->query($credCheck);
 if ($result->num_rows > 0) {
     $row = $result->fetch_assoc();
     $storedPasswordHash = $row['password'];
+    $user_id = $row['id'];
 
     if (password_verify($_POST['password'], $storedPasswordHash)) {
         echo "Login Succ";

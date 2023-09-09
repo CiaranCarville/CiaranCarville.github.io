@@ -1,0 +1,16 @@
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Navbar background color */
+}
+
+ul.navbar li {
+    display: inline;
+    margin-right: 10px; /* Adjust spacing between navbar items */
+}
+
+ul.navbar li a {
+    text-decoration: none;
+    color: white; /* Navbar item text color */
+}
